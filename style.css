@@ -1,0 +1,50 @@
+body {
+  width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  color: #555;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 200px;
+}
+
+.intro {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.intro img {
+  float: left;
+  margin-right: 2rem;
+  width: 280px;
+  border-radius: 2rem;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #937d14;
+}
+
+a:visited {
+  color: #d2c6b2;
+}
+
+a:link {
+  color: #937d14;
+}
