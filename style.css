@@ -41,9 +41,11 @@ a:active {
   color: #937d14;
 }
 
+"""
 a:visited {
   color: #d2c6b2;
 }
+"""
 
 a:link {
   color: #937d14;
